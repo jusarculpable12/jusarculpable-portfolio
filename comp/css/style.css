@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Geist Sans", sans-serif;
+}
+
+.container{
+    max-width: 896px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.flex-content{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.gap-10px{
+    gap: 10px;
+}
+.gap-4px{
+    gap: 4px;
+}
+.full-width{
+    width: 100%;
+    max-width: 100%;
+}
+h1{
+    font-size: 24px;
+}
+.nameContent .nameverificationContent h1 svg {
+    width: 16px;
+    height: 16px;
+}
+.align-center{
+    align-items: center;
+}
+.headshotContent {
+    max-width: 160px;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.profileSection{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.gap-24{
+    gap: 24px;
+}
+.headshotContent {
+    background: radial-gradient(circle, #F7F7F7, #DADADA);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.headshotContent img {
+    object-fit: cover;
+    height: 100%;
+    object-position: 4px 0px;
+}
+button.toggle-theme {
+    max-width: 44px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    background: #d1d5db;
+    overflow: hidden;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+    outline: none;
+    max-height: 26px;
+}
+button.toggle-theme .toggleswitch > i:last-of-type {
+    display: none;
+}
+button.toggle-theme .toggleswitch {
+    max-width: 22px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    transition: 0.3s;
+}
+button.toggle-theme .toggleswitch > i {
+    font-size: 12px;
+}
+button.toggle-theme.active .toggleswitch {
+    left: auto;
+    right: 2px;
+}
+
+button.toggle-theme.active .toggleswitch > i:last-of-type {
+    display: block;
+}
+button.toggle-theme.active .toggleswitch > i:first-of-type {
+    display: none;
+}
+.location-text svg{
+    max-width: 14px;
+    width: 100%;
+}
+.mt-2px{
+    margin-top: 2px;
+}
+.mt-15px{
+    margin-top: 15px;
+}
+.location-text span{
+    font-size: 14px;
+}
+
+.text-gray{
+   color: rgb(156 163 175);
+}
+.roleContent{
+    font-size: 16px;
+    color: #000000;
+}
