@@ -37,6 +37,9 @@ a{
 .gap-4px{
     gap: 4px;
 }
+.gap-8px{
+    gap: 8px;
+}
 .full-width{
     width: 100%;
     max-width: 100%;
@@ -107,6 +110,12 @@ button.toggle-theme .toggleswitch {
     height: 22px;
     transition: 0.3s;
 }
+.box-content{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04), 0 1px 2px rgba(0, 0, 0, .06);
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+}
 .emailbtn{
     background: #000;
     color: #fff;
@@ -141,6 +150,9 @@ button.toggle-theme.active .toggleswitch > i:first-of-type {
 .mt-10px{
     margin-top: 10px;
 }
+.mb-32px{
+    margin-bottom: 32px;
+}
 .location-text span{
     font-size: 14px;
 }
@@ -151,4 +163,8 @@ button.toggle-theme.active .toggleswitch > i:first-of-type {
 .roleContent{
     font-size: 16px;
     color: #000000;
+}
+.aboutContent h2{
+    font-size: 18px;
+    font-weight: 700;
 }
