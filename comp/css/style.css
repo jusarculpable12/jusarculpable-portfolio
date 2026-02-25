@@ -219,7 +219,10 @@ button.toggle-theme.active .toggleswitch > i:first-of-type {
 .mt-32px{
     margin-top: 32px;
 }
-
+.my-8px{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 .mb-8px{
     margin-bottom: 8px;
 }
@@ -292,4 +295,7 @@ button.toggle-theme.active .toggleswitch > i:first-of-type {
 }
 .text-right{
     text-align: right;
+}
+.project-box-list img {
+    border-radius: 8px;
 }
