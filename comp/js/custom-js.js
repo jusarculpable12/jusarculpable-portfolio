@@ -6,7 +6,7 @@ const body = document.querySelector("body");
 });
 
 
-fetch('/comp/json/project.json')
+fetch('./comp/json/project.json')
 .then(response => response.json())
 .then(projects => {
     const projectList = document.querySelector('.project-box-list');
