@@ -1,0 +1,27 @@
+[
+    {
+        "name" : "NST LAW",
+        "description" : "A law firm website created using WordPress and the Elementor theme.",
+        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/"
+        
+    },
+    {
+        "name" : "Lorem name 1",
+        "description" : "A law firm website created using WordPress and the Elementor theme.",
+        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/"
+    },
+    {
+        "name" : "Lorem name 1",
+        "description" : "A law firm website created using WordPress and the Elementor theme.",
+        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/"
+    },
+    {
+        "name" : "Lorem name 1",
+        "description" : "A law firm website created using WordPress and the Elementor theme.",
+        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/"
+    }
+]
