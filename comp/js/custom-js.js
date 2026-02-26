@@ -6,11 +6,7 @@ const body = document.querySelector("body");
 });
 
 
-<<<<<<< HEAD
 fetch('./comp/json/project.json')
-=======
-fetch('/comp/json/project.json')
->>>>>>> b5d05581f8ff1f6b5ee684304b5cdd5e6356ce1c
 .then(response => response.json())
 .then(projects => {
     const projectList = document.querySelector('.project-box-list');
@@ -19,12 +15,24 @@ fetch('/comp/json/project.json')
       const projectContainer = document.createElement('a');
 
       projectContainer.href = `${project.link}`;
+      projectContainer.classList.add('relative','project-list')
       projectContainer.target = '_blank';
       projectContainer.rel = 'nofollow noopener noreferrer';
       projectContainer.innerHTML = `
         <img src="${project.img}" >
-        <h3 class="my-8px">${project.name}</h3>
-        <p>${project.description}</p>
+        <h3 class="m-8px">${project.name}</h3>
+        <p class="mx-8px mb-8px" >${project.description}</p>
+
+        <div class="projectCategories absolute">
+          <p>Used:</p>
+      
+          <ul class="flex-content row gap-8px list wrap">
+            ${project.categories
+              .map(category => `<li>${category}</li>`)
+              .join("")
+            }
+          </ul>
+        </div>
       `;
 
       projectList.appendChild(projectContainer);

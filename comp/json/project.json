@@ -2,26 +2,31 @@
     {
         "name" : "NST LAW",
         "description" : "A law firm website created using WordPress and the Elementor theme.",
-        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
-        "link" : "https://www.nstlaw.com/"
+        "img" : "./comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
         
     },
     {
-        "name" : "Lorem name 1",
-        "description" : "A law firm website created using WordPress and the Elementor theme.",
-        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
-        "link" : "https://www.nstlaw.com/"
+        "name" : "Class Action U",
+        "description" : "We help people hold corporations accountable for negligence and breaches.",
+        "img" : "./comp/img/projects-images/classactions-landing.webp",
+        "link" : "https://classactionu.org/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
+        
+    },
+    {
+        "name" : "Oslund Udo Little",
+        "description" : "Helping Pacific Northwest families seek justice for mesothelioma & abuse.",
+        "img" : "./comp/img/projects-images/oslundlegal-landing.webp",
+        "link" : "https://www.nstlaw.com/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
     },
     {
         "name" : "Lorem name 1",
         "description" : "A law firm website created using WordPress and the Elementor theme.",
-        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
-        "link" : "https://www.nstlaw.com/"
-    },
-    {
-        "name" : "Lorem name 1",
-        "description" : "A law firm website created using WordPress and the Elementor theme.",
-        "img" : "/comp/img/projects-images/nstlaw-landing.webp",
-        "link" : "https://www.nstlaw.com/"
+        "img" : "./comp/img/projects-images/nstlaw-landing.webp",
+        "link" : "https://www.nstlaw.com/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
     }
 ]
