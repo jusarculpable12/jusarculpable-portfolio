@@ -23,10 +23,38 @@
         "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
     },
     {
-        "name" : "Lorem name 1",
-        "description" : "A law firm website created using WordPress and the Elementor theme.",
-        "img" : "./comp/img/projects-images/nstlaw-landing.webp",
-        "link" : "https://www.nstlaw.com/",
+        "name" : "Disabity Advice",
+        "description" : "Guiding and supporting individuals through every step of the SSDI claims process.",
+        "img" : "./comp/img/projects-images/Disabilityadvice-landing.webp",
+        "link" : "https://disabilityadvice.org/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
+    },
+    {
+        "name" : "Disabity Advice",
+        "description" : "Guiding and supporting individuals through every step of the SSDI claims process.",
+        "img" : "./comp/img/projects-images/Disabilityadvice-landing.webp",
+        "link" : "https://disabilityadvice.org/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
+    },
+    {
+        "name" : "Disabity Advice",
+        "description" : "Guiding and supporting individuals through every step of the SSDI claims process.",
+        "img" : "./comp/img/projects-images/Disabilityadvice-landing.webp",
+        "link" : "https://disabilityadvice.org/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
+    },
+    {
+        "name" : "Disabity Advice",
+        "description" : "Guiding and supporting individuals through every step of the SSDI claims process.",
+        "img" : "./comp/img/projects-images/Disabilityadvice-landing.webp",
+        "link" : "https://disabilityadvice.org/",
+        "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
+    },
+    {
+        "name" : "Disabity Advice",
+        "description" : "Guiding and supporting individuals through every step of the SSDI claims process.",
+        "img" : "./comp/img/projects-images/Disabilityadvice-landing.webp",
+        "link" : "https://disabilityadvice.org/",
         "categories": ["WordPress", "Elementor", "Html/CSS", "PHP", "Javascript"]
     }
 ]
